@@ -2,10 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ParagraphSpecComponent } from './paragraph-spec/paragraph-spec.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParagraphSpecComponent
   ],
   imports: [
     BrowserModule
